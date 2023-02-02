@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main(){
+    //สร้าง array
+    int score[3] = {100,50,20};
+    char grade[5] = {'A','B','C','D',"F"};
+
+    //เปลี่ยนค่าสมาชิก
+    score[0] = 1;
+    score[1] = 40;
+
+    //อ้างอิงตำแหน่งเลขindex
+    cout << score[0] << endl;
+}
