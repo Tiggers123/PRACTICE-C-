@@ -2,18 +2,17 @@
 using namespace std;
 int main(){
     //สร้าง array
-    int score[] = {100,50,20,77,45,73,85};
-    char grade[5] = {'A','B','C','D','F'};
+    int score[] = {100,50,20,77,45,73,85,54,622,64,78,34,53};
 
-    //เปลี่ยนค่าสมาชิก
-    //score[0] = 1;
-    //score[1] = 40;
+    //sizeof
+    //cout << sizeof(bool) <<endl; 1
+    //cout << sizeof(int) <<endl;  4
+    //cout << sizeof(float) <<endl; 4
+    //cout << sizeof(double) <<endl; 4
+    //cout << sizeof(long) <<endl; 8
+    //cout << sizeof(char) <<endl; 1
 
-    //อ้างอิงตำแหน่งเลขindex
-    //cout << score[0] << endl;
-    //cout << score[2] << endl;
-
-    for (int i = 0; i < 5; i++){
-        cout << score[i] <<endl;
-    }
+    cout << "Size integer = " << sizeof(int) << endl;
+    cout << "total size = " << sizeof(score) << endl;
+    cout << "element count = " << sizeof(score)/sizeof(int) << endl;
 }
